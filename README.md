@@ -17,17 +17,32 @@ VisionAI is an advanced real-time multimodal assistant that leverages state-of-t
 ### Demo
 
 # Functionalities
-1. Object Detection
+![Screenshot 2024-10-10 163643](https://github.com/user-attachments/assets/719ac6c5-d1e3-4919-ba87-3e7436a06427)
+
+![Screenshot 2024-10-10 164302](https://github.com/user-attachments/assets/d42abb49-2fdb-4cbb-9a1f-8778537d5a5b)
+
+![Screenshot 2024-10-10 164325](https://github.com/user-attachments/assets/ecd1363e-8b6b-41a6-985f-093f0a82ad4f)
+
+
+# Object Detection
 Upload an image, and the system will detect objects and display bounding boxes with classification labels.
+![Screenshot 2024-10-10 164723](https://github.com/user-attachments/assets/7cccc8b8-dd1a-49c2-a3ff-e2e5df175e2e)
 
-2. Image Captioning
+# Image Captioning
 Upload an image, and VisionAI will generate a descriptive caption using the ViT-GPT2 model.
+![Screenshot 2024-10-10 164812](https://github.com/user-attachments/assets/b95fd339-62bb-4ee8-9ea7-722e4bcfeeb9)
 
-3. Chatbot Response with Image Context
+
+# Chatbot Response with Image Context
 Upload an image, ask a question related to it, and VisionAI will provide a relevant response considering both the image context and the user's query.
+![Screenshot 2024-10-10 170246](https://github.com/user-attachments/assets/f0866885-9530-4c10-a41a-dea0c381854a)
 
-4. Image Generation
+# Image Generation
 Input an uncensored text prompt to generate high-quality images using Stable Diffusion.
+![Screenshot 2024-10-10 165814](https://github.com/user-attachments/assets/1fc38e39-1621-4867-b4f7-4d8f0fa6bfa9)
+
+
+
 
 
 # Tech Stack
@@ -69,11 +84,13 @@ streamlit run app.py
 # File Structure
 
 VisionAI/
+
 │ 
-├── app.py                  # Main Streamlit app
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-└── yolov8n.pt              # YOLOv8 pre-trained weights (downloaded externally)
+├── app.py                 
+├── README.md               
+├── requirements.txt        
+└── yolov8n.pt               
+(downloaded externally)
 
 
 # Acknowledgements
